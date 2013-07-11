@@ -39,6 +39,7 @@ var financeurl = function(symbols, columns) {
 };
 
 var marketCapFloat = function(marketCapString) {
+console.log(marketCapString);
     return parseFloat(marketCapString.split('B')[0]) * 1e9;
 };
 
